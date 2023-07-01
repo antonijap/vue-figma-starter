@@ -1,37 +1,51 @@
 # Figma Plugin Vue Starter
 
-A starter template using vue3 and vite for developing Figma plugins
+A starter template using Vue 3 and Vite for developing Figma plugins.
 
-## Get started 
+## Table of Contents
 
-```
-npm install
-```
+- [Getting Started](#getting-started)
+- [Importing to Figma](#importing-to-figma)
+- [Publishing a Plugin](#publishing-a-plugin)
+- [Libraries Included](#libraries-included)
+- [Contribution](#contribution)
+- [License](#license)
 
-## Style & UI
+## Getting Started
 
-Start a server with the following command to help you style
-the plugin UI, thanks to hotreload
+1. Ensure you have [Node.js](https://nodejs.org) installed.
+2. Clone this repository.
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run watch
+    ```
+5. Open `src/App.vue` to start coding the Plugin UI and `Figma/code.js` to interact with Figma API.
 
-```bash
-npm run dev
-```
-## Typescript
+## Importing to Figma
 
-Run the following command to compile your typescript
-```bash
-npm run watch
-```
+Go to plugins and import plugin with the `manifest.json` file. The manifest is located in the root of the folder.
 
+## Publishing a Plugin
 
+Consult with [Figma's documentation](https://help.figma.com/hc/en-us/articles/360042293394-Publish-plugins-to-the-Figma-Community) for a detailed guide on how to publish your plugin to the Figma community.
+Remember to generate a new ID field for the `manifest.json` when you are ready to publish.
 
-## Figma Developer
-"Our developer platform puts the power in your hands to create the tools teams need to improve efficiency, expand functionality, and bring ideas to life. Take a look at our APIs, documentation, guides, and references to get started."
+## Libraries Included
 
-### Documentation
+✅ Vue 3
 
-More about Figma plugins: [here](https://www.figma.com/plugin-docs/)
-## Librairy
+✅ Pinia 2
 
-- [Figma UI Styles](https://github.com/thomas-lowry/figma-plugin-ds)
-- [Figma utilities](https://figx.cool)
+✅ Tailwind 3
+
+## Contribution
+
+This project is open to contributions and improvements from the community! We believe that collective knowledge can create the best tools. If you have ideas for enhancements, new features, or spot any bugs, don't hesitate to submit an issue or a pull request. If you have any questions, need help getting started, or simply want to discuss something, feel free to reach out at [hi@apek.me](mailto:hi@apek.me). Let's make this project better together!
+
+## License
+
+This project is licensed under the terms of the MIT license. See [LICENSE](./LICENSE) for more details.

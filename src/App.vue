@@ -1,8 +1,11 @@
 <!-- eslint-disable vue/use-v-on-exact -->
 <template>
-    <div class="div">
-        <p>{{ hello }}, {{ whoami }}</p>
-        <button @click="myMethod">Click me</button>
+    <div class="flex items-center justify-center h-screen">
+        <div>
+            <p class="text-gray-800">{{ hello }}</p>
+            <p class="text-gray-500 text-sm mt-1">{{ whoami }}</p>
+            <button class="px-4 py-2 rounded-md text-white bg-blue-500 mt-8" @click="myMethod">Method demo</button>
+        </div>
     </div>
 </template>
 
@@ -34,7 +37,7 @@ export default {
         return {
             ...defaultStore,
             // You can add other local reactive data here
-            hello: 'Hello Figma!',
+            hello: 'Hello Figma coder!',
             whoami: defaultStore.whoami,
             myMethod,
         }
