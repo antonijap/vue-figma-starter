@@ -1,0 +1,35 @@
+{
+  "name": "color-party",
+  "version": "1.0.0",
+  "author": "Antonija Pek <hi@apek.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.ts,.vue --fix"
+  },
+  "dependencies": {
+    "chroma-js": "2.4.2",
+    "figma-plugin-ds": "^1.0.1",
+    "figx": "^0.1.0",
+    "pinia": "^2.0.35",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.11.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1",
+    "vite": "^2.9.15",
+    "vite-plugin-singlefile": "^0.7.1"
+  }
+}
