@@ -14,16 +14,23 @@ A starter template using Vue 3 and Vite for developing Figma plugins.
 ## Getting Started
 
 1. Ensure you have [Node.js](https://nodejs.org) installed.
-2. Clone this repository.
-3. Install the dependencies:
+2. Clone this repository. Navigate to your development folder and run
+    ```bash
+    git clone https://github.com/antonijap/vue-figma-starter.git your-plugin-name
+    ```
+3. Install the dependencies
     ```bash
     npm install
     ```
-4. Start the development server:
+4. This script will ask for your plugin name and do some maintenence (optional)
+    ```bash
+    npm run reset
+    ```
+5. Start the development server
     ```bash
     npm run watch
     ```
-5. Open `src/App.vue` to start coding the Plugin UI and `Figma/code.js` to interact with Figma API.
+6. Open `src/App.vue` to start coding the Plugin UI and `Figma/code.js` to interact with Figma API.
 
 ## Importing to Figma
 

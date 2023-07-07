@@ -1,5 +1,5 @@
 {
-  "name": "color-party",
+  "name": "vue-figma-starter",
   "version": "1.0.0",
   "author": "Antonija Pek <hi@apek.me>",
   "license": "MIT",
@@ -8,14 +8,17 @@
     "build": "vite build",
     "watch": "vite build --watch",
     "preview": "vite preview",
-    "lint": "eslint . --ext .js,.ts,.vue --fix"
+    "lint": "eslint . --ext .js,.ts,.vue --fix",
+    "reset": "node reset.js"
   },
   "dependencies": {
     "chroma-js": "2.4.2",
     "figma-plugin-ds": "^1.0.1",
     "figx": "^0.1.0",
     "pinia": "^2.0.35",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "chalk": "^4.1.2",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
